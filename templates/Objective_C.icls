@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Objective-C">
+  <template name="swf" value="[NSString stringWithFormat:@&quot;$END$&quot;]" description="String with format" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OC_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="addtarget" value="[$TYPE$ addTarget:self action:@selector($SELECTOR$) forControlEvents:UIControlEventTouchUpInside];" description="Adds target tobutton" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="variableOfType(&quot;UIControl&quot;)" defaultValue="&quot;button&quot;" alwaysStopAt="true" />
+    <variable name="SELECTOR" expression="&quot;pressed:&quot;" defaultValue="pressed:" alwaysStopAt="true" />
+    <context>
+      <option name="OC_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="buttbi" value="[$BUTTON$ setBackgroundImage:[UIImage imageNamed:@&quot;$NAME$&quot;] forState:UIControlStateNormal];&#10;[$BUTTON$ setBackgroundImage:[UIImage imageNamed:@&quot;$NAME$-highlighted&quot;] forState:UIControlStateHighlighted];&#10;" description="Button background image" toReformat="false" toShortenFQNames="true">
+    <variable name="BUTTON" expression="variableOfType(&quot;UIButton&quot;)" defaultValue="&quot;button&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;button&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="OC_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>
+

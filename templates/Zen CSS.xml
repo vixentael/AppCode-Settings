@@ -1,0 +1,1517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Zen CSS">
+  <template name="bdrs:n" value="border-right-style:none;" description="border-right-style:none;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bdrs" value="border-right-style:$VAR0$;" description="border-right-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdlc" value="border-left-color:$VAR0$;" description="border-left-color:#000;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="tt" value="text-transform:$VAR0$;" description="text-transform:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="td" value="text-decoration:$VAR0$;" description="text-decoration:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ta" value="text-align:$VAR0$;" description="text-align:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bxz" value="box-sizing:$VAR0$;" description="box-sizing:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdf" value="border-fit:$VAR0$;" description="border-fit:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdc" value="border-color:$VAR0$;" description="border-color:#000;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdc:t" value="border-color:transparent;" description="border-color:transparent;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="@m" value="@media print {&#10;  $VAR0$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="oc:i" value="outline-color:invert;" description="outline-color:invert;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="v" value="visibility:$VAR0$;" description="visibility:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="tal" value="text-align-last:$VAR0$;" description="text-align-last:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bdl:a" value="border-length:auto;" description="border-length:auto;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ovs" value="overflow-style:$VAR0$;" description="overflow-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="fs" value="font-style:$VAR0$;" description="font-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ovx" value="overflow-x:$VAR0$;" description="overflow-x:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ovy" value="overflow-y:$VAR0$;" description="overflow-y:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ov" value="overflow:$VAR0$;" description="overflow:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="fl" value="float:$VAR0$;" description="float:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bsha" value="-webkit-box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;&#10;-moz-box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;&#10;-ms-box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;&#10;box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bdbk" value="border-break:$VAR0$;" description="border-break:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdbc" value="border-bottom-color:$VAR0$;" description="border-bottom-color:#000;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rz" value="resize:$VAR0$;" description="resize:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bdtc" value="border-top-color:$VAR0$;" description="border-top-color:#000;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bgz:cv" value="background-size:cover;" description="background-size:cover;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bgz:ct" value="background-size:contain;" description="background-size:contain;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bxsh:n" value="box-shadow:none;" description="box-shadow:none;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="bxsh:m" value="-moz-box-shadow:0 0 0 0 #000;" description="-moz-box-shadow:0 0 0 0 #000;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bxsh:w" value="-webkit-box-shadow:0 0 0 #000;" description="-webkit-box-shadow:0 0 0 #000;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="m:2" value="margin:0 0;" description="margin:0 0;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="m:4" value="margin:0 0 0 0;" description="margin:0 0 0 0;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="m:0" value="margin:0;" description="margin:0;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="m:3" value="margin:0 0 0;" description="margin:0 0 0;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bgcp" value="background-clip:$VAR0$;" description="background-clip:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="c" value="color:$VAR0$;" description="color:#000;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="brad" value="-webkit-border-radius: $VAR0$;&#10;-moz-border-radius: $VAR0$;&#10;-ms-border-radius: $VAR0$;&#10;border-radius: $VAR0$;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="cl" value="clear:$VAR0$;" description="clear:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bxsh" value="box-shadow: $VAR0$ $VAR1$ $VAR2$ $VAR3$;" description="box-shadow:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cn" value="content:$VAR0$;" description="content:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="cp:r" value="clip:rect($VAR0$);" description="clip:rect(...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rz:v" value="resize:vertical;" description="resize:vertical;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="rz:n" value="resize:none;" description="resize:none;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="rz:h" value="resize:horizontal;" description="resize:horizontal;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="rz:b" value="resize:both;" description="resize:both;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="va" value="vertical-align:$VAR0$;" description="vertical-align:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cur" value="cursor:$VAR0$;" description="cursor:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="wob:bs" value="word-break:break-strict;" description="word-break:break-strict;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="pos" value="position:$VAR0$;" description="position:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="d" value="display:$VAR0$;" description="display:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="p:4" value="padding:0 0 0 0;" description="padding:0 0 0 0;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bgz:a" value="background-size:auto;" description="background-size:auto;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="p:0" value="padding:0;" description="padding:0;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="p:3" value="padding:0 0 0;" description="padding:0 0 0;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="p:2" value="padding:0 0;" description="padding:0 0;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="wob:l" value="word-break:loose;" description="word-break:loose;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="oo" value="outline-offset:$VAR0$;" description="outline-offset:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="oc" value="outline-color:$VAR0$;" description="outline-color:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="o" value="outline:$VAR0$;" description="outline:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ow" value="outline-width:$VAR0$;" description="outline-width:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bgz" value="background-size:$VAR0$;" description="background-size:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="os" value="outline-style:$VAR0$;" description="outline-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bdrz" value="border-radius:$VAR0$;" description="border-radius:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bdrc" value="border-right-color:$VAR0$;" description="border-right-color:#000;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="o:n" value="outline:none;" description="outline:none;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bg" value="background:$VAR0$;" description="background:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdi:m" value="-moz-border-image:url($VAR0$) 0 0 0 0 stretch stretch;" description="-moz-border-image:url(...) 0 0 0 0 stretch stretch;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bdi:w" value="-webkit-border-image:url($VAR0$) 0 0 0 0 stretch stretch;" description="-webkit-border-image:url(...) 0 0 0 0 stretch stretch;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="mar" value="max-resolution:$VAR0$;" description="max-resolution:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="mir" value="min-resolution:$VAR0$;" description="min-resolution:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="trf:t" value="transform: translate($VAR0$, $VAR1$);" description="transform: translate(x, y);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="trf:tx" value="transform: translateX($VAR0$);" description="transform: translateX(x);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="trf:ty" value="transform: translateY($VAR0$);" description="transform: translateY(y);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="@import" value="@import url($VAR0$);" description="@import url(...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_RULESET_LIST" value="false" />
+    </context>
+  </template>
+  <template name="@media" value="@media $VAR0$ {&#10;  $VAR1$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;screen&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_RULESET_LIST" value="false" />
+    </context>
+  </template>
+  <template name="@kf" value="@-webkit-keyframes $NAME$ {&#10;  $FROM$ { $FROM_BODY$ }&#10; $TO${ $TO_BODY$ }  $OTHER_RULESETS$&#10;}&#10;                    @-o-keyframes $NAME$ {&#10;  $FROM$ { $FROM_BODY$ }&#10;  $TO$ { $TO_BODY$ }  $OTHER_RULESETS$&#10;}&#10;                    @-moz-keyframes $NAME$ {&#10;  $FROM$ { $FROM_BODY$ }&#10;  $TO$ { $TO_BODY$ }  $OTHER_RULESETS$&#10;}&#10;                    @keyframes $NAME$ {&#10;  $FROM$ { $FROM_BODY$ }&#10;  $TO$ { $TO_BODY$ }  $OTHER_RULESETS$&#10;}" description="keyframes" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;identifier&quot;" alwaysStopAt="true" />
+    <variable name="FROM" expression="" defaultValue="&quot;from&quot;" alwaysStopAt="true" />
+    <variable name="FROM_BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TO" expression="" defaultValue="&quot;to&quot;" alwaysStopAt="true" />
+    <variable name="TO_BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OTHER_RULESETS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_RULESET_LIST" value="false" />
+    </context>
+  </template>
+  <template name="anim" value="animation:$VAR0$;" description="animation:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="anim-" value="animation:$NAME$ $DURATION$ $TIMING$ $DELAY$ $COUNT$ $DIRECTION$ $FILL_MODE$;" description="animation:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="DURATION" expression="" defaultValue="&quot;duration&quot;" alwaysStopAt="true" />
+    <variable name="TIMING" expression="" defaultValue="&quot;timing-function&quot;" alwaysStopAt="true" />
+    <variable name="DELAY" expression="" defaultValue="&quot;delay&quot;" alwaysStopAt="true" />
+    <variable name="COUNT" expression="" defaultValue="&quot;iteration-count&quot;" alwaysStopAt="true" />
+    <variable name="DIRECTION" expression="" defaultValue="&quot;direction&quot;" alwaysStopAt="true" />
+    <variable name="FILL_MODE" expression="" defaultValue="&quot;fill-mode&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animdel" value="animation-delay:$VAR0$;" description="animation-delay:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;time&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animdir" value="animation-direction:$VAR0$;" description="animation-direction:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animdir:n" value="animation-direction:normal;" description="animation-direction: normal;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animdir:r" value="animation-direction:reverse;" description="animation-direction: reverse;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animdir:a" value="animation-direction:alternate;" description="animation-direction: alternate;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animdir:ar" value="animation-direction:alternate-reverse;" description="animation-direction: alternate-reverse;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animdur" value="animation-duration:$DURATION$s;" description="animation-duration:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="DURATION" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animfm" value="animation-fill-mode:$FILL_MODE$;" description="animation-fill-mode:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="FILL_MODE" expression="" defaultValue="&quot;both&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animfm:f" value="animation-fill-mode:forwards;" description="animation-fill-mode: forwards;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animfm:b" value="animation-fill-mode:backwards;" description="animation-fill-mode: backwards;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animfm:bt" value="animation-fill-mode:both;" description="animation-fill-mode: both;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animfm:bh" value="animation-fill-mode:both;" description="animation-fill-mode: both;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animic" value="animation-iteration-count:$COUNT$;" description="animation-iteration-count:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="COUNT" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animic:i" value="animation-iteration-count:infinite;" description="animation-iteration-count: infinite;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animn" value="animation-name:$NAME$;" description="animation-name:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;none&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animps" value="animation-play-state:$STATE$;" description="animation-play-state:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="STATE" expression="" defaultValue="&quot;running&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animps:p" value="animation-play-state:paused;" description="animation-play-state: paused;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animps:r" value="animation-play-state:running;" description="animation-play-state: running;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animtf" value="animation-timing-function:$VALUE$;" description="animation-timing-function:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="&quot;linear&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animtf:e" value="animation-timing-function:ease;" description="animation-timing-function: ease;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animtf:ei" value="animation-timing-function:ease-in;" description="animation-timing-function: ease-in;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animtf:eo" value="animation-timing-function:ease-out;" description="animation-timing-function: ease-out;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animtf:eio" value="animation-timing-function:ease-in-out;" description="animation-timing-function: ease-in-out;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animtf:l" value="animation-timing-function:linear;" description="animation-timing-function: linear;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="animtf:cb" value="animation-timing-function:cubic-bezier($VAR0$, $VAR1$, $VAR2$, $VAR3$);" description="animation-timing-function: cubic-bezier(...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;0.1&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;0.7&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;1.0&quot;" alwaysStopAt="true" />
+    <variable name="VAR3" expression="" defaultValue="&quot;0.1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ap" value="appearance:$VALUE$;" description="appearance:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="&quot;none&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colm" value="columns:$VAR0$;" description="columns:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colmc" value="column-count:$VAR0$;" description="column-count:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colmf" value="column-fill:$VAR0$;" description="column-fill:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colmg" value="column-gap:$VAR0$;" description="column-gap:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colmr" value="column-rule:$VAR0$;" description="column-rule:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colmrc" value="column-rule-color:$VAR0$;" description="column-rule-color:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colmrs" value="column-rule-style:$VAR0$;" description="column-rule-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colmrw" value="column-rule-width:$VAR0$;" description="column-rule-width:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colms" value="column-span:$VAR0$;" description="column-span:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="colmw" value="column-width:$VAR0$;" description="column-width:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="d:ib+" value="display:inline-block; *display: inline; *zoom: 1;" description="display:inline-block; *display: inline; *zoom: 1;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="zm" value="zoom:1;" description="zoom:1;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="bxsh:r" value="box-shadow: $INSET$ $HOFF$ $VOFF$ $BLUR$ $SPREAD$ rgb($RED$, $GREEN$, $BLUE$);" description="box-shadow:... rgb();" toReformat="true" toShortenFQNames="true">
+    <variable name="INSET" expression="" defaultValue="&quot;inset&quot;" alwaysStopAt="true" />
+    <variable name="HOFF" expression="" defaultValue="&quot;hoff&quot;" alwaysStopAt="true" />
+    <variable name="VOFF" expression="" defaultValue="&quot;voff&quot;" alwaysStopAt="true" />
+    <variable name="BLUR" expression="" defaultValue="&quot;blur&quot;" alwaysStopAt="true" />
+    <variable name="SPREAD" expression="" defaultValue="&quot;spread&quot;" alwaysStopAt="true" />
+    <variable name="RED" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="GREEN" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="BLUE" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="bxsh:ra" value="box-shadow: $INSET$ $HOFF$ $VOFF$ $BLUR$ $SPREAD$ rgba($RED$, $GREEN$, $BLUE$, $OPACITY$);" description="box-shadow:... rgba();" toReformat="true" toShortenFQNames="true">
+    <variable name="INSET" expression="" defaultValue="&quot;inset&quot;" alwaysStopAt="true" />
+    <variable name="HOFF" expression="" defaultValue="&quot;h&quot;" alwaysStopAt="true" />
+    <variable name="VOFF" expression="" defaultValue="&quot;v&quot;" alwaysStopAt="true" />
+    <variable name="BLUR" expression="" defaultValue="&quot;blur&quot;" alwaysStopAt="true" />
+    <variable name="SPREAD" expression="" defaultValue="&quot;spread&quot;" alwaysStopAt="true" />
+    <variable name="RED" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="GREEN" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="BLUE" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="OPACITY" expression="" defaultValue="&quot;0.5&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ol" value="outline:$VAR0$;" description="outline:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ol:n" value="outline:none;" description="outline:none;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="olo" value="outline-offset:$VAR0$;" description="outline-offset:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="olw" value="outline-width:$VAR0$;" description="outline-width:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="olw:tn" value="outline-width:thin;" description="outline-width: thin;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="olw:m" value="outline-width:medium;" description="outline-width: medium;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="olw:tc" value="outline-width:thick;" description="outline-width: thick;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols" value="outline-style:$VAR0$;" description="outline-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:n" value="outline-style: none;" description="outline-style: none;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:dt" value="outline-style: dotted;" description="outline-style: dotted;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:ds" value="outline-style: dashed;" description="outline-style: dashed;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:s" value="outline-style: solid;" description="outline-style: solid;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:db" value="outline-style: double;" description="outline-style: double;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:g" value="outline-style: groove;" description="outline-style: groove;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:r" value="outline-style: ridge;" description="outline-style: ridge;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:i" value="outline-style: inset;" description="outline-style: inset;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ols:o" value="outline-style: outset;" description="outline-style: outset;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="olc" value="outline-color:#$VAR0$;" description="outline-color:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="olc:i" value="outline-color:invert;" description="outline-color:invert;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="bgr:sp" value="background-repeat:space;" description="background-repeat: space;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="bgr:rd" value="background-repeat:round;" description="background-repeat: round;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="bgsz" value="background-size:$VALUE$;" description="background-size:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="bgsz:a" value="background-size:auto;" description="background-size: auto;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="bgsz:ct" value="background-size:contain;" description="background-size: contain;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="bgsz:cv" value="background-size:cover;" description="background-size: cover;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="c:r" value="color:rgb($RED$, $GREEN$, $BLUE$);" description="color: rgb();" toReformat="true" toShortenFQNames="true">
+    <variable name="RED" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="GREEN" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="BLUE" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="c:ra" value="color:rgba($RED$, $GREEN$, $BLUE$, 0.$OPACITY$);" description="color: rgba();" toReformat="true" toShortenFQNames="true">
+    <variable name="RED" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="GREEN" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="BLUE" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="OPACITY" expression="" defaultValue="&quot;5&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cm" value="/* $VAR0$ */" description="/* */" toReformat="true" toShortenFQNames="true">
+    <variable name="$VAR0$" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+    </context>
+  </template>
+  <template name="cnt" value="content:'$VAR0$';" description="content:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cnt:n" value="content:normal;" description="content:normal;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cnt:oq" value="content:open-quote;" description="content:open-quote;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cnt:noq" value="content:no-open-quote;" description="content:no-open-quote;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cnt:cq" value="content:close-quote;" description="content:close-quote;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cnt:ncq" value="content:no-close-quote;" description="content:no-close-quote;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cnt:a" value="content:attr($VAR0$);" description="content:attr(...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cnt:c" value="content:counter($VAR0$);" description="content:counter(...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="cnt:cs" value="content:counters($VAR0$);" description="content:counters(...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ta-lst" value="text-align-last:$VAR0$;" description="text-align-last:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="tov" value="text-overflow:$VAR0$;" description="text-overflow:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;ellipsis&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="tov:e" value="text-overflow:ellipsis;" description="text-overflow: ellipsis;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="tov:c" value="text-overflow:clip;" description="text-overflow: clip;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="tsh:r" value="text-shadow:$HOFF$ $VOFF$ $BLUR$ rgb($RED$, $GREEN$, $BLUE$);" description="text-shadow:hoff voff blur rgb();" toReformat="true" toShortenFQNames="true">
+    <variable name="HOFF" expression="" defaultValue="&quot;h&quot;" alwaysStopAt="true" />
+    <variable name="VOFF" expression="" defaultValue="&quot;v&quot;" alwaysStopAt="true" />
+    <variable name="BLUR" expression="" defaultValue="&quot;blur&quot;" alwaysStopAt="true" />
+    <variable name="RED" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="GREEN" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="BLUE" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="tsh:ra" value="text-shadow:$HOFF$ $VOFF$ $BLUR$ rgba($RED$, $GREEN$, $BLUE$, 0.$OPACITY$);" description="text-shadow:hoff voff blur rgba();" toReformat="true" toShortenFQNames="true">
+    <variable name="HOFF" expression="" defaultValue="&quot;h&quot;" alwaysStopAt="true" />
+    <variable name="VOFF" expression="" defaultValue="&quot;v&quot;" alwaysStopAt="true" />
+    <variable name="BLUR" expression="" defaultValue="&quot;blur&quot;" alwaysStopAt="true" />
+    <variable name="RED" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="GREEN" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="BLUE" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <variable name="OPACITY" expression="" defaultValue="&quot;5&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="trfo" value="transform-origin:$VAR0$;" description="transform-origin:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="trfs" value="transform-style: $VAR0$;" description="transform-style:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;preserve-3d&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wow:b" value="word-wrap:break-word;" description="word-wrap:break-word;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm" value="writing-mode:$VAR0$;" description="writing-mode:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;lr-tb&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm:lrt" value="writing-mode: lr-tb;" description="writing-mode: lr-tb;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm:lrb" value="writing-mode: lr-bt;" description="writing-mode: lr-bt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm:rlt" value="writing-mode: rl-tb;" description="writing-mode: rl-tb;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm:rlb" value="writing-mode: rl-bt;" description="writing-mode: rl-bt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm:tbr" value="writing-mode: tb-rl;" description="writing-mode: tb-rl;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm:tbl" value="writing-mode: tb-lr;" description="writing-mode: tb-lr;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm:btl" value="writing-mode: bt-lr;" description="writing-mode: bt-lr;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wm:btr" value="writing-mode: bt-rl;" description="writing-mode: bt-rl;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="lts-n" value="letter-spacing: normal;" description="letter-spacing: normal;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ff:a" value="font-family:Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif;" description="font-family:Arial, &quot;Helvetica Neue&quot;, Helvetica, sans-serif;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ff:t" value="font-family:&quot;Times New Roman&quot;, Times, Baskerville, Georgia, serif;" description="font-family:&quot;Times New Roman&quot;, Times, Baskerville, Georgia, serif;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="ff:v" value="font-family: Verdana, Geneva, sans-serif;" description="font-family: Verdana, Geneva, sans-serif;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="op+" value="opacity:$VAR0$; filter: alpha(opacity=$VAR1$);" description="opacity:...; filter: alpha(opacity...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="rsz" value="resize: $VAR0$;" description="resize:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="rsz:n" value="resize: none;" description="resize: none;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="rsz:b" value="resize: both;" description="resize: both;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="rsz:h" value="resize: horizontal;" description="resize: horizontal;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="rsz:v" value="resize: vertical;" description="resize: vertical;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="us" value="user-select:$VAR0$;" description="user-select:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;none&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wfsm" value="-webkit-font-smoothing:$VAR0$;" description="-webkit-font-smoothing:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;antialiased&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wfsm:a" value="-webkit-font-smoothing: antialiased;" description="-webkit-font-smoothing: antialiased;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wfsm:s" value="-webkit-font-smoothing:subpixel-antialiased;" description="-webkit-font-smoothing: subpixel-antialiased;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wfsm:sa" value="-webkit-font-smoothing:subpixel-antialiased;" description="-webkit-font-smoothing: subpixel-antialiased;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+  <template name="wfsm:n" value="-webkit-font-smoothing:none;" description="-webkit-font-smoothing: none;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+    </context>
+  </template>
+</templateSet>
+

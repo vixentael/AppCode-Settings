@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="user">
-  <template name="asyncm" value="dispatch_async(dispatch_get_main_queue(), ^{&#10;   $END$&#10;});&#10;" description="Dispatch async in main queue" toReformat="true" toShortenFQNames="true">
+  <template name="ifelse" value="   if ($VAR$) {&#10;      &#10;   } else {&#10;      &#10;   }" description="if () {} else {}" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -9,7 +10,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="true" />
-      <option name="OC_EXPRESSION" value="false" />
+      <option name="OC_EXPRESSION" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -18,7 +19,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="dealloc" value="#pragma mark - Dealloc&#10;&#10;- (void)dealloc {&#10;   $END$&#10;}&#10;" description="dealloc" toReformat="true" toShortenFQNames="true">
+  <template name="pnab" value="@property (nonatomic, assign) BOOL $DECLARATION$;$END$" description="@property (nonatomic assign) BOOL" toReformat="true" toShortenFQNames="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -36,30 +38,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="sh" value="$CLASS$ * $CLASS2$ = [$CLASS$ $sharedName$];" description="Shared instance" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="guessElementType()" defaultValue="" alwaysStopAt="true" />
-    <variable name="CLASS2" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="sharedName" expression="" defaultValue="&quot;sharedInstance&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="objc" value="false" />
-      <option name="OC_DECLARATION" value="false" />
-      <option name="OC_STATEMENT" value="true" />
-      <option name="OC_EXPRESSION" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="OTHER" value="false" />
-    </context>
-  </template>
-  <template name="idef" value="$CLASS$ * $_variable$;" description="Ivar definition" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="_variable" expression="suggestVariableName(CLASS)" defaultValue="" alwaysStopAt="true" />
+  <template name="init" value="- (id)init {&#10;    self = [super init];&#10;    if (self) {&#10;        $DECLARATION$&#10;    }&#10;    return self;&#10;}" description="default init" toReformat="true" toShortenFQNames="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -77,17 +57,18 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="asynca" value="dispatch_after(dispatch_time(DISPATCH_TIME_NOW, $SECONDS$ * NSEC_PER_SEC), $QUEUE$, ^{&#10;  $END$&#10;});" description="Dispatch async after timeout" toReformat="true" toShortenFQNames="true">
-    <variable name="SECONDS" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
-    <variable name="QUEUE" expression="" defaultValue="&quot;dispatch_get_current_queue()&quot;" alwaysStopAt="true" />
+  <template name="linit" value="- ($CLASS$ *)$VAR$ {&#10;    if (!_$VAR_COPY$) {&#10;        _$VAR_COPY$ = [$CLASS$ new];$END$&#10;    }&#10;    return _$VAR_COPY$;&#10;}" description="lazyinit" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_COPY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
       <option name="objc" value="false" />
-      <option name="OC_DECLARATION" value="false" />
-      <option name="OC_STATEMENT" value="true" />
+      <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
       <option name="OC_EXPRESSION" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
@@ -97,8 +78,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="ws" value="__weak $CLASSNAME$ * weakSelf = self;" description="weak self" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASSNAME" expression="fileNameWithoutExtension()" defaultValue="fileNameWithoutExtension()" alwaysStopAt="false" />
+  <template name="l" value="NSLog(@&quot;$SELECTION$ = %$TYPE$&quot;, $SELECTION$);" description="log var" toReformat="true" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE" expression="" defaultValue="&quot;@&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -107,7 +89,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="true" />
-      <option name="OC_EXPRESSION" value="false" />
+      <option name="OC_EXPRESSION" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -116,9 +98,26 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="once" value="static dispatch_once_t $ONCE$;&#10;dispatch_once(&amp;$ONCE$, ^{&#10;   $CURSOR$&#10;});" description="Dispatch once" toReformat="false" toShortenFQNames="true">
-    <variable name="ONCE" expression="" defaultValue="&quot;once&quot;" alwaysStopAt="false" />
-    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="dma" value="NSMutableArray * $MA$ = [NSMutableArray array];" description="mutable array" toReformat="true" toShortenFQNames="true">
+    <variable name="MA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="true" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="true" />
+      <option name="OC_EXPRESSION" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="weakself" value="__weak typeof(self) weakSelf = self;" description="weakSelf" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -127,7 +126,7 @@
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
       <option name="OC_STATEMENT" value="true" />
-      <option name="OC_EXPRESSION" value="false" />
+      <option name="OC_EXPRESSION" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -136,7 +135,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="async" value="dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{&#10;    $END$&#10;});" description="Async in backgound queue" toReformat="false" toShortenFQNames="true">
+  <template name="gcdmain" value="dispatch_async(dispatch_get_main_queue(), ^{&#10;    $DECLARATION$$END$&#10;});" toReformat="false" toShortenFQNames="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -144,8 +144,8 @@
       <option name="XML" value="false" />
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
-      <option name="OC_STATEMENT" value="true" />
-      <option name="OC_EXPRESSION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -154,8 +154,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="button" value="UIButton * $BUTTONNAME$ = [UIButton new];" description="Simple UIbutton" toReformat="false" toShortenFQNames="true">
-    <variable name="BUTTONNAME" expression="" defaultValue="&quot;button&quot;" alwaysStopAt="true" />
+  <template name="nswf" value="[NSString stringWithFormat:@&quot;$END$&quot;]" description="string with format" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -163,8 +162,8 @@
       <option name="XML" value="false" />
       <option name="objc" value="false" />
       <option name="OC_DECLARATION" value="false" />
-      <option name="OC_STATEMENT" value="true" />
-      <option name="OC_EXPRESSION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
@@ -173,9 +172,27 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="test" value="-(void)test$TESTNAME$ {&#10;   $CURSOR$&#10;}" description="testExample" toReformat="false" toShortenFQNames="true">
-    <variable name="TESTNAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="gcdonce" value="static dispatch_once_t once;&#10;dispatch_once(&amp;once, ^{&#10;    $DECLARATION$$END$&#10;});" description="dispath once" toReformat="false" toShortenFQNames="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="false" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ls" value="- (void)layoutSubviews {&#10;    [super layoutSubviews];&#10;    &#10;    $DECLARATION$$END$&#10;}" description="layout subview" toReformat="true" toShortenFQNames="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />

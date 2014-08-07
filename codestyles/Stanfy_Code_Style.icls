@@ -14,10 +14,8 @@
   </option>
   <Objective-C>
     <option name="INDENT_NAMESPACE_MEMBERS" value="3" />
-    <option name="SPACE_BEFORE_PROPERTY_ATTRIBUTES_PARENTHESES" value="true" />
     <option name="SPACE_BEFORE_PROTOCOLS_BRACKETS" value="false" />
     <option name="SPACE_AFTER_POINTER_IN_DECLARATION" value="true" />
-    <option name="GENERATE_CLASS_CONSTRUCTOR" value="false" />
     <option name="DECLARE_GENERATED_METHODS" value="false" />
   </Objective-C>
   <Objective-C-extensions>
