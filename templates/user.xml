@@ -190,7 +190,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="ls" value="- (void)layoutSubviews {&#10;    [super layoutSubviews];&#10;    &#10;    $DECLARATION$$END$&#10;}" description="layout subview" toReformat="true" toShortenFQNames="true">
+  <template name="ls" value="#pragma mark - layout&#10;- (void)layoutSubviews {&#10;    [super layoutSubviews];&#10;    &#10;    $DECLARATION$$END$&#10;}" description="layout subview" toReformat="true" toShortenFQNames="true">
     <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
