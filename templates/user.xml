@@ -38,7 +38,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="init" value="- (id)init {&#10;    self = [super init];&#10;    if (self) {&#10;        $DECLARATION$&#10;    }&#10;    return self;&#10;}" description="default init" toReformat="true" toShortenFQNames="true">
+  <template name="init" value="- (instancetype)init {&#10;    self = [super init];&#10;    if (self) {&#10;        [self postInitialization];&#10;    }&#10;    return self;&#10;}&#10;&#10;&#10;- (void)postInitialization {&#10;    $DECLARATION$&#10;}" description="default init" toReformat="true" toShortenFQNames="true">
     <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
