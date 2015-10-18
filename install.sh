@@ -1,6 +1,6 @@
 echo "This script is installing Color schemes, Live Templates and CodeStyles for Appcode"
 
-APPCODE_PREFS_DIR=~/Library/Preferences/appCode30
+APPCODE_PREFS_DIR=~/Library/Preferences/AppCode33
 
 echo  "Copying files to ${APPCODE_PREFS_DIR}"
 

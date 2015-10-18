@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="user">
   <template name="ifelse" value="   if ($VAR$) {&#10;      &#10;   } else {&#10;      &#10;   }" description="if () {} else {}" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
@@ -224,5 +223,72 @@
       <option name="OC_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="disinit" value="#pragma mark - DisableInit&#10;&#10;+ (id)new NS_UNAVAILABLE;&#10;- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil NS_UNAVAILABLE;&#10;- (instancetype)init NS_UNAVAILABLE;&#10;- (instancetype)initWithCoder:(NSCoder *)coder NS_UNAVAILABLE;" description="disable init" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="OC_DECLARATION_C" value="true" />
+      <option name="OC_STATEMENT_C" value="false" />
+      <option name="OC_EXPRESSION_C" value="false" />
+      <option name="cpp" value="false" />
+      <option name="OC_DECLARATION_CPP" value="false" />
+      <option name="OC_STATEMENT_CPP" value="false" />
+      <option name="OC_EXPRESSION_CPP" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="pnr" value="@property (nonatomic, readonly) $DECLARATION$;$END$" description="@property (nonatomic, readonly)" toReformat="true" toShortenFQNames="true">
+    <variable name="DECLARATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="c" value="false" />
+      <option name="OC_DECLARATION_C" value="false" />
+      <option name="OC_STATEMENT_C" value="false" />
+      <option name="OC_EXPRESSION_C" value="false" />
+      <option name="cpp" value="false" />
+      <option name="OC_DECLARATION_CPP" value="false" />
+      <option name="OC_STATEMENT_CPP" value="false" />
+      <option name="OC_EXPRESSION_CPP" value="false" />
+      <option name="objc" value="false" />
+      <option name="OC_DECLARATION" value="true" />
+      <option name="OC_STATEMENT" value="false" />
+      <option name="OC_EXPRESSION" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="swf" value="[NSString stringWithFormat:@&quot;$END$&quot;]" description="string with format" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OC_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
-
