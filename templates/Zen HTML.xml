@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Zen HTML">
   <template name="html:xs" value="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;&#10;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;$ENV_LANG$&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=UTF-8&quot; /&gt;&#10;  &lt;title&gt;&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  $END$&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="ENV_LANG" expression="" defaultValue="&quot;en&quot;" alwaysStopAt="true" />
@@ -321,4 +320,3 @@
     </context>
   </template>
 </templateSet>
-

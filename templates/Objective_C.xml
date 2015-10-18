@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Objective-C">
   <template name="swf" value="[NSString stringWithFormat:@&quot;$END$&quot;]" description="String with format" toReformat="true" toShortenFQNames="true">
     <context>
@@ -173,4 +172,3 @@
     </context>
   </template>
 </templateSet>
-
